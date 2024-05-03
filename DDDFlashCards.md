@@ -94,4 +94,65 @@ It is a class that is used to access aggregates or entities of a domain model, A
 *Auditable*: May record some information by who whome when where and it was executed
 
 ## 4 key concepts of Factories  
+This is used only to create Entities and Value objects and commands and aggregates
+
+*Abdtract*: It may define an interface that specifies how objects can be created by the factory
+*Concrete*: 
+*Simple*: It onlycreate objects without doing any thing else or causing any side effects !
+*Configurabel*: It may allow customizing some aspects of how the objects are created
+
+## Command-Query Responsibility Segregation (CQRS)  
+Use **commands** to **create/update/delete** Entities into databases, and ofcource you use with it **Repositories**  
+And you use other **Queries** to **Read** objects from databases  
+
+## Here is use case that useses Commands and Factories and Services at the same time  
+```python
+
+# Domain entity
+class Order:   
+    def__init__(self, id, customer_id, items)
+        self.id = id
+        self.customer_id= customer_id
+        self.items = items
+
+# Command
+class PlaceOrderCommand:
+    def __init__ (self, customer_id, order_items):
+        self.customer_id = cutomer_id
+        self.order_items = order_items  
+    def validate(self):
+        if not self.order_items:
+            raise ValueError("BALALALALA")
+
+# Factory
+class OrderFactory:
+    def create_order(self, order_id, customer_id, order_items):
+        if not order_items:
+            raise ValueError("ASKLDJAS")
+            # Here we used an **Entity**
+        return Order(id=order_idm customer_id=customer_id, items=order_items)
+
+# Application Service  
+class OrderService:  
+    def __init__(self, order_factory, order_repository):
+        # HEre we used a **Factory**
+        self.order_factory = order_factory  
+        # Here we used a **Repsository**
+        self.order_repositroy = order_repository  
+    
+    # Here we used a **Command**
+    def place_order(self, command):
+        command.validate()
+        # Here we used a **Factory**
+        order = self.order_factory.create_order(
+            order_id=generate_order_id(),
+            customer_id=commadn.customer_id  
+            order_items=command.order_items 
+        )
+
+        # Save order  
+        # Here we used a **Repository**
+        self.order_repository.save(order)
+    
+```
 
