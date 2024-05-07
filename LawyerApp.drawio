@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T10:47:12.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3Gm1mYOaNfOxxX_1NGSo" version="24.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-05-07T10:47:55.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="0OyDtv5UKxSrrkHnmOh5" version="24.3.1" type="github" pages="10">
   <diagram name="BigPicture" id="qfa_Cv2fE3JtLc8KQ3pW">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -371,7 +371,7 @@
         <mxCell id="an7YgSU8Eb61kGIOMJFt-47" value="Lawyer will have to choose between accepting the request or declinin it again" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="1880" width="210" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="p3MzukJGo0_fYyB99Gh5-3" value="status can be one of the following:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A.&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="p3MzukJGo0_fYyB99Gh5-3" value="status can be one of the following:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A.&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="680" width="270" height="243" as="geometry" />
         </mxCell>
       </root>
