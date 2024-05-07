@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T13:32:54.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4KOaapH3sNVGe5lj4hnV" version="24.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-05-07T14:04:16.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="RAjSBQaINUD8pQVbrVCw" version="24.3.1" type="github" pages="10">
   <diagram name="BigPicture" id="qfa_Cv2fE3JtLc8KQ3pW">
     <mxGraphModel dx="1185" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vB9PxYqL_Lki10HVZCzh" name="MyObligationsTab">
-    <mxGraphModel dx="3428" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3295" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,11 +325,13 @@
         </mxCell>
         <mxCell id="p3MzukJGo0_fYyB99Gh5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p3MzukJGo0_fYyB99Gh5-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="1120" as="targetPoint" />
+            <mxPoint x="1300" y="1300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="390" y="1060" />
-              <mxPoint x="291" y="1060" />
-              <mxPoint x="291" y="1120" />
+              <mxPoint x="390" y="1070" />
+              <mxPoint x="870" y="1070" />
+              <mxPoint x="870" y="1120" />
+              <mxPoint x="950" y="1120" />
+              <mxPoint x="950" y="1190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -340,7 +342,7 @@
         </mxCell>
         <mxCell id="p3MzukJGo0_fYyB99Gh5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p3MzukJGo0_fYyB99Gh5-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="1080" as="targetPoint" />
+            <mxPoint x="1520" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p3MzukJGo0_fYyB99Gh5-10" value="Consultation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3MzukJGo0_fYyB99Gh5-9">
@@ -372,7 +374,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p3MzukJGo0_fYyB99Gh5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p3MzukJGo0_fYyB99Gh5-3">
+        <mxCell id="p3MzukJGo0_fYyB99Gh5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p3MzukJGo0_fYyB99Gh5-3" target="0bol3ugXceG2_FAVMwJo-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="1080" as="targetPoint" />
           </mxGeometry>
@@ -619,6 +621,9 @@
         </mxCell>
         <mxCell id="1NslSacgXvXGGA69UpLK-10" value="&lt;div&gt;&lt;b&gt;&lt;i&gt;(Go to)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;i&gt;A. Proccessed by court&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-400" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0bol3ugXceG2_FAVMwJo-1" value="Status can be one of the following:&lt;div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;A. Pending (Accept or Decline)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;B. In progress (Set date of court appearance)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;C. Prossessd by court (Close)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;D. Reassingned&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;E.&amp;nbsp; Canceled&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;F. Closed&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1120" width="350" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -921,7 +926,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uOrQp1McR1hRLHqKMQ_T" name="MatterStatusOptions">
-    <mxGraphModel dx="2107" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
