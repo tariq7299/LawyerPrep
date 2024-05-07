@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T00:19:11.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="AXWMit1X2R7URcw0FvqI" version="24.3.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-07T00:37:14.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="RIc56O7UWrNIlRk7mE90" version="24.3.1" type="github" pages="7">
   <diagram name="BigPicture" id="qfa_Cv2fE3JtLc8KQ3pW">
-    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -215,7 +215,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="1YeC4Yh1tthFTek8SQ-O" name="NotificationIcon">
+  <diagram id="1YeC4Yh1tthFTek8SQ-O" name="NotificationIconOnHomeScreen">
     <mxGraphModel dx="1195" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -234,6 +234,154 @@
         <mxCell id="ASWgjVFXhZlvKHJxQjIa-3" value="Shows him a list of all prebious notificitons and alerts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252.5" y="190" width="365" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="02cQYrzkD7kjJR5NdKWR" name="PendingRequestedMatterListOnHomeScreen">
+    <mxGraphModel dx="989" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FWdOmBq0298L3YVnmGbm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FWdOmBq0298L3YVnmGbm-1" target="FWdOmBq0298L3YVnmGbm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FWdOmBq0298L3YVnmGbm-1" value="Pending requested matters that will appear on home page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FWdOmBq0298L3YVnmGbm-2" value="This will show a neat list of all pending requested matters" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="230" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nPz2P4weThNj-ZQLh-7C" name="CalenderOfUpcomingEventsOnHomeScreen">
+    <mxGraphModel dx="989" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="63YkR49iYC5HOKZPsaxn-1" value="Calender of upcoming events that will appear on lawyer home screen&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will just be a caleender component that will show each day and its associtated events&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="335" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yd3h4MreGsYpXffv-J96" name="CourtAppearancesTab">
+    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6CxBVgeLKlaidHhjACgo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6CxBVgeLKlaidHhjACgo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="125" />
+              <mxPoint x="440" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CxBVgeLKlaidHhjACgo-4" value="presses on tab" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6CxBVgeLKlaidHhjACgo-3">
+          <mxGeometry x="0.0011" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CxBVgeLKlaidHhjACgo-1" value="Court appearances tab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="20" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BANRI4B3PuRLSDq20cbi-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.0000000000002" y="330.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-8" value="presses on one of them" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BANRI4B3PuRLSDq20cbi-7">
+          <mxGeometry x="0.1801" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-1" value="List of all court apperances with each one has this as a titles" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="325" y="140" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-2" value="Client name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-1">
+          <mxGeometry y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-3" value="Case name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-1">
+          <mxGeometry x="105" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-4" value="Case type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-1">
+          <mxGeometry x="10" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-5" value="Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-1">
+          <mxGeometry x="120" y="90" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="600" as="targetPoint" />
+            <mxPoint x="400" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-22" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BANRI4B3PuRLSDq20cbi-21">
+          <mxGeometry x="-0.0085" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-26" value="presses on phone button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BANRI4B3PuRLSDq20cbi-21">
+          <mxGeometry x="0.4512" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.9999999999998" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-25" value="presses on chat button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BANRI4B3PuRLSDq20cbi-24">
+          <mxGeometry x="0.0911" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-9" value="List of details of this specifc court appearance" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-10" value="Client name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-11" value="Case name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="105" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-12" value="Case type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="10" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-13" value="Case (matter requested) status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="5" y="120" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-15" value="Documents" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="205" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-16" value="Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="100" y="90" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-19" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Button to chat with client&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="195" y="100" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-20" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;button with his phone to call&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="285" y="50" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-27" value="Will be directed to chat screen of that client" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BANRI4B3PuRLSDq20cbi-29" value="Will call the client" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o4eWCaPZH1iIU81kkOMP" name="CasesTab">
+    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
