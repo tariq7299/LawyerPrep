@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T16:04:53.495Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="faPuIcsapyXuC3VfEEkU" version="24.3.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-05-07T16:30:12.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2bkGxEN-Ewd7lEkgNBIX" version="24.3.1" type="github" pages="12">
   <diagram name="BigPicture" id="qfa_Cv2fE3JtLc8KQ3pW">
     <mxGraphModel dx="1185" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,28 +84,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U8OB6Dw8a2SlmDT38R1X-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="U8OB6Dw8a2SlmDT38R1X-36" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="338" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="430" y="468" />
-              <mxPoint x="355" y="468" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U8OB6Dw8a2SlmDT38R1X-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="508" as="targetPoint" />
-            <mxPoint x="430" y="338" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="430" y="448" />
-              <mxPoint x="460" y="448" />
-              <mxPoint x="460" y="488" />
-              <mxPoint x="490" y="488" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U8OB6Dw8a2SlmDT38R1X-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+        <mxCell id="U8OB6Dw8a2SlmDT38R1X-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1" target="U8OB6Dw8a2SlmDT38R1X-42">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="508" as="targetPoint" />
             <mxPoint x="510" y="308" as="sourcePoint" />
@@ -124,6 +103,14 @@
               <mxPoint x="670" y="308" />
               <mxPoint x="670" y="488" />
               <mxPoint x="695" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cH_95ofcaismO-nHMo9i-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8OB6Dw8a2SlmDT38R1X-2" target="U8OB6Dw8a2SlmDT38R1X-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="440" />
+              <mxPoint x="400" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -158,13 +145,10 @@
           <mxGeometry x="200" y="518" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="U8OB6Dw8a2SlmDT38R1X-36" value="Lega libarary tab" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="518" width="90" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="U8OB6Dw8a2SlmDT38R1X-39" value="وكالات" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="508" width="90" height="70" as="geometry" />
+          <mxGeometry x="355" y="518" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="U8OB6Dw8a2SlmDT38R1X-42" value="العقود والاتعاب" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="508" width="90" height="70" as="geometry" />
+          <mxGeometry x="510" y="515" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="U8OB6Dw8a2SlmDT38R1X-44" value="Clients" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="508" width="90" height="70" as="geometry" />
@@ -1258,6 +1242,67 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KSPCAdwoC70W49oC5Jai" name="LawyerAvatarTab">
+    <mxGraphModel dx="1037" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ahabOBBFwoWJP1EpXmMG-1" target="ahabOBBFwoWJP1EpXmMG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-10" value="lawyer pressa on submit changes button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ahabOBBFwoWJP1EpXmMG-8">
+          <mxGeometry x="0.1957" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-1" value="Lawyer is directed to his profile screen and it has the following input fields:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;uesrname&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;Address&lt;/div&gt;&lt;div&gt;uploaded ID(Document)&lt;/div&gt;&lt;div&gt;gender&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;id number&lt;/div&gt;&lt;div&gt;Submit changes BUTTON&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="90" width="500" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ahabOBBFwoWJP1EpXmMG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429.75" y="10" as="sourcePoint" />
+            <mxPoint x="430" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-5" value="Lawyer presses on lawyer avatar tab" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ahabOBBFwoWJP1EpXmMG-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ahabOBBFwoWJP1EpXmMG-11" target="ahabOBBFwoWJP1EpXmMG-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-17" value="manager approves of changes made" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ahabOBBFwoWJP1EpXmMG-12">
+          <mxGeometry x="0.0595" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ahabOBBFwoWJP1EpXmMG-11" target="ahabOBBFwoWJP1EpXmMG-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-18" value="manager declines of the changes made" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ahabOBBFwoWJP1EpXmMG-13">
+          <mxGeometry x="0.3839" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-11" value="office manager will recieve an approval request and also will appear on his notifictions and alerts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="390" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-15" value="no changes will take effect and lawyer will be notifed" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahabOBBFwoWJP1EpXmMG-16" value="all changes will take effect then lawyer will be notified" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KLznV4zmFry1RrF0vDrF" name="Contracts">
     <mxGraphModel dx="2074" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
