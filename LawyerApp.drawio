@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T00:09:43.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="fsq6EdLrh7oUyrECY0jl" version="24.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-07T00:19:11.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="AXWMit1X2R7URcw0FvqI" version="24.3.1" type="github" pages="3">
   <diagram name="BigPicture" id="qfa_Cv2fE3JtLc8KQ3pW">
-    <mxGraphModel dx="1195" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,10 +179,61 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qd-67gMuf_5tpacMDJPn" name="LogInScreen">
-    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HKu93WFRqybVoLExcTC6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKu93WFRqybVoLExcTC6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKu93WFRqybVoLExcTC6-1" value="Lawyer is met with log in view/screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HKu93WFRqybVoLExcTC6-9" value="Input fields" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKu93WFRqybVoLExcTC6-10" value="username/email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HKu93WFRqybVoLExcTC6-9">
+          <mxGeometry x="2" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKu93WFRqybVoLExcTC6-12" value="Password" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HKu93WFRqybVoLExcTC6-9">
+          <mxGeometry x="115" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKu93WFRqybVoLExcTC6-18" value="Directed to home page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKu93WFRqybVoLExcTC6-19" value="a" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HKu93WFRqybVoLExcTC6-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKu93WFRqybVoLExcTC6-20" value="press on log in button" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="HKu93WFRqybVoLExcTC6-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1YeC4Yh1tthFTek8SQ-O" name="NotificationIcon">
+    <mxGraphModel dx="1195" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASWgjVFXhZlvKHJxQjIa-1" target="ASWgjVFXhZlvKHJxQjIa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-5" value="press on icon/tab" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ASWgjVFXhZlvKHJxQjIa-4">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-1" value="Noticificion and Alerts icon/tab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-3" value="Shows him a list of all prebious notificitons and alerts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="190" width="365" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
