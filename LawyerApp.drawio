@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T09:28:01.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="QTb0yGhLB3CElDRMGOcU" version="24.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-05-07T10:47:12.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3Gm1mYOaNfOxxX_1NGSo" version="24.3.1" type="github" pages="10">
   <diagram name="BigPicture" id="qfa_Cv2fE3JtLc8KQ3pW">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -215,8 +215,41 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="1YeC4Yh1tthFTek8SQ-O" name="NotificationIconOnHomeScreen">
+    <mxGraphModel dx="715" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASWgjVFXhZlvKHJxQjIa-1" target="ASWgjVFXhZlvKHJxQjIa-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-5" value="press on icon/tab" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ASWgjVFXhZlvKHJxQjIa-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-1" value="Noticificion and Alerts icon/tab" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="30" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASWgjVFXhZlvKHJxQjIa-3" value="Shows him a list of all previous notificitons and alerts" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="252.5" y="190" width="365" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nPz2P4weThNj-ZQLh-7C" name="CalenderOfUpcomingEventsOnHomeScreen">
+    <mxGraphModel dx="988" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="63YkR49iYC5HOKZPsaxn-1" value="Calender of upcoming events that will appear on lawyer home screen&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will just be a caleender component that will show each day and its associtated events&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="50" width="335" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="vB9PxYqL_Lki10HVZCzh" name="MyObligationsTab">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,41 +273,11 @@
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-7" value="presses on a matter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="an7YgSU8Eb61kGIOMJFt-6" vertex="1" connectable="0">
           <mxGeometry x="-0.1904" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-5" value="See all requested matters&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;matter label&lt;/div&gt;&lt;div&gt;matter status&lt;/div&gt;&lt;div&gt;due date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="167" width="245" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="667" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="160" y="507" />
-              <mxPoint x="160" y="627" />
-              <mxPoint x="210" y="627" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-14" value="Presses on Accept/Decline button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="an7YgSU8Eb61kGIOMJFt-9" vertex="1" connectable="0">
-          <mxGeometry x="-0.3432" relative="1" as="geometry">
-            <mxPoint x="-15" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-29" value="Presses on Decline" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="an7YgSU8Eb61kGIOMJFt-9" vertex="1" connectable="0">
-          <mxGeometry x="0.6537" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="657" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-19" value="Presses on Chat button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="an7YgSU8Eb61kGIOMJFt-10" vertex="1" connectable="0">
-          <mxGeometry x="0.0534" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-8" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -286,12 +289,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-8" edge="1">
+        <mxCell id="an7YgSU8Eb61kGIOMJFt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-8" edge="1" target="p3MzukJGo0_fYyB99Gh5-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="657" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="517" />
               <mxPoint x="310" y="637" />
+              <mxPoint x="195" y="637" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -300,52 +304,34 @@
             <mxPoint x="-31" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="p3MzukJGo0_fYyB99Gh5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="an7YgSU8Eb61kGIOMJFt-8" target="an7YgSU8Eb61kGIOMJFt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3MzukJGo0_fYyB99Gh5-2" value="presses on chat button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3MzukJGo0_fYyB99Gh5-1">
+          <mxGeometry x="0.1241" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-8" value="&lt;u&gt;See matter details&lt;/u&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;matter label&lt;/div&gt;&lt;div&gt;matter status&lt;/div&gt;&lt;div&gt;due date&lt;/div&gt;&lt;div&gt;matter details&amp;nbsp;&lt;/div&gt;&lt;div&gt;documents (If it exists in the first place)&lt;/div&gt;&lt;div&gt;client details (If it is coming from a client)&lt;/div&gt;&lt;div&gt;Accept or Decline &lt;b&gt;&lt;i&gt;BUTTON (IF this is the first time)&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Change status &lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;BUTTON&lt;br&gt;&lt;/i&gt;&lt;/b&gt;Chat with client&amp;nbsp;&lt;b&gt;&lt;i&gt;BUTTON (If it were from a client)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Chat with manager &lt;b style=&quot;font-style: italic;&quot;&gt;BUTTON&lt;/b&gt;&lt;br&gt;Call client&amp;nbsp;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;BUTTON (If it were coming from a client)&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="367" width="310" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="667" as="targetPoint" />
-            <mxPoint x="160" y="597" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-27" value="presses on Accept" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="an7YgSU8Eb61kGIOMJFt-21" vertex="1" connectable="0">
-          <mxGeometry x="-0.4465" y="1" relative="1" as="geometry">
-            <mxPoint x="-26" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-22" value="The request will be accepted and status of matter will change to &lt;i&gt;&lt;b&gt;In Progress&lt;/b&gt;&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="667" width="130" height="83" as="geometry" />
+          <mxGeometry x="290" y="1277" width="130" height="83" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-23" value="Lawyer will call the client" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="627" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-24" value="Lawyer will be directed to whats app of sms" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="657" width="120" height="80" as="geometry" />
+          <mxGeometry x="540" y="657" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-25" value="lawyer can choose between different status options (See status options page)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="657" width="150" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="787" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="550" y="787" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-26" value="Lawyer will be directed to response screen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="667" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="927" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="an7YgSU8Eb61kGIOMJFt-34" value="lawyer submits his decline response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="an7YgSU8Eb61kGIOMJFt-33" vertex="1" connectable="0">
-          <mxGeometry x="-0.2975" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="680" y="1310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-32" value="Lawyer should write a response message" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="787" width="130" height="83" as="geometry" />
+          <mxGeometry x="680" y="1188.5" width="130" height="83" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-35" target="an7YgSU8Eb61kGIOMJFt-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -369,7 +355,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-35" value="Matter status will be changes to &lt;i&gt;&lt;b&gt;D&lt;/b&gt;&lt;/i&gt;&lt;i style=&quot;&quot;&gt;&lt;b&gt;eclined&lt;/b&gt;&lt;/i&gt; and manager recieves a response from lawyer which include the decline message" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="927" width="180" height="140" as="geometry" />
+          <mxGeometry x="410" y="1320" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="an7YgSU8Eb61kGIOMJFt-36" target="an7YgSU8Eb61kGIOMJFt-47" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -377,35 +363,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-36" value="The matter status will change to again and be &lt;b&gt;&lt;i&gt;pending &lt;/i&gt;&lt;/b&gt;and accept and decline button will appear again" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1147" width="220" height="140" as="geometry" />
+          <mxGeometry x="160" y="1690" width="220" height="140" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-42" value="matter will change to &lt;b&gt;&lt;i style=&quot;&quot;&gt;Reassigned&lt;/i&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="1160" width="205" height="140" as="geometry" />
+          <mxGeometry x="405" y="1560" width="205" height="140" as="geometry" />
         </mxCell>
         <mxCell id="an7YgSU8Eb61kGIOMJFt-47" value="Lawyer will have to choose between accepting the request or declinin it again" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1360" width="210" height="140" as="geometry" />
+          <mxGeometry x="330" y="1880" width="210" height="140" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="1YeC4Yh1tthFTek8SQ-O" name="NotificationIconOnHomeScreen">
-    <mxGraphModel dx="965" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="ASWgjVFXhZlvKHJxQjIa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASWgjVFXhZlvKHJxQjIa-1" target="ASWgjVFXhZlvKHJxQjIa-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ASWgjVFXhZlvKHJxQjIa-5" value="press on icon/tab" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ASWgjVFXhZlvKHJxQjIa-4" vertex="1" connectable="0">
-          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ASWgjVFXhZlvKHJxQjIa-1" value="Noticificion and Alerts icon/tab" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="30" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ASWgjVFXhZlvKHJxQjIa-3" value="Shows him a list of all prebious notificitons and alerts" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="252.5" y="190" width="365" height="80" as="geometry" />
+        <mxCell id="p3MzukJGo0_fYyB99Gh5-3" value="status can be one of the following:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A.&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="680" width="270" height="243" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -427,19 +394,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="nPz2P4weThNj-ZQLh-7C" name="CalenderOfUpcomingEventsOnHomeScreen">
-    <mxGraphModel dx="830" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="63YkR49iYC5HOKZPsaxn-1" value="Calender of upcoming events that will appear on lawyer home screen&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will just be a caleender component that will show each day and its associtated events&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="50" width="335" height="100" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="yd3h4MreGsYpXffv-J96" name="CourtAppearancesTab">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1338" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -454,10 +410,10 @@
         </mxCell>
         <mxCell id="6CxBVgeLKlaidHhjACgo-4" value="presses on tab" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6CxBVgeLKlaidHhjACgo-3" vertex="1" connectable="0">
           <mxGeometry x="0.0011" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6CxBVgeLKlaidHhjACgo-1" value="Court appearances tab" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="6CxBVgeLKlaidHhjACgo-1" value="Court appearances tab (Cases filterd to be with status &lt;b&gt;&lt;i&gt;court appearance status&lt;/i&gt;&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="305" y="20" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BANRI4B3PuRLSDq20cbi-1" edge="1">
@@ -473,8 +429,8 @@
         <mxCell id="5_Dm7uW49cuyHY69q8R9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BANRI4B3PuRLSDq20cbi-1" target="BANRI4B3PuRLSDq20cbi-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BANRI4B3PuRLSDq20cbi-1" value="List of all court apperances with each one has this as a titles&lt;br&gt;(This is basically Requested matter but filterd to be court appearances only !)" style="swimlane;whiteSpace=wrap;html=1;startSize=90;" parent="1" vertex="1">
-          <mxGeometry x="305" y="130" width="240" height="200" as="geometry" />
+        <mxCell id="BANRI4B3PuRLSDq20cbi-1" value="List of all court apperances with each one has this as a titles&lt;br&gt;(This is basically Cases but filterd to be court appearances only !)" style="swimlane;whiteSpace=wrap;html=1;startSize=90;" parent="1" vertex="1">
+          <mxGeometry x="305" y="130" width="245" height="200" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-2" value="Client name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-1" vertex="1">
           <mxGeometry x="5" y="110" width="90" height="30" as="geometry" />
@@ -485,16 +441,16 @@
         <mxCell id="BANRI4B3PuRLSDq20cbi-4" value="Case type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-1" vertex="1">
           <mxGeometry x="5" y="150" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BANRI4B3PuRLSDq20cbi-5" value="Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-1" vertex="1">
-          <mxGeometry x="145" y="110" width="50" height="30" as="geometry" />
+        <mxCell id="BANRI4B3PuRLSDq20cbi-5" value="Court appearance date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-1" vertex="1">
+          <mxGeometry x="95" y="110" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="651" as="targetPoint" />
-            <mxPoint x="400" y="541" as="sourcePoint" />
+            <mxPoint x="260" y="670" as="targetPoint" />
+            <mxPoint x="400" y="560" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="400" y="561" />
-              <mxPoint x="260" y="561" />
+              <mxPoint x="400" y="580" />
+              <mxPoint x="260" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -503,10 +459,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BANRI4B3PuRLSDq20cbi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+        <mxCell id="BANRI4B3PuRLSDq20cbi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" target="BANRI4B3PuRLSDq20cbi-27" source="BANRI4B3PuRLSDq20cbi-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="619.9999999999998" y="591" as="targetPoint" />
-            <mxPoint x="445" y="551" as="sourcePoint" />
+            <mxPoint x="634.9999999999998" y="620" as="targetPoint" />
+            <mxPoint x="460" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="581" />
+              <mxPoint x="636" y="581" />
+              <mxPoint x="636" y="620" />
+              <mxPoint x="620" y="620" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-25" value="presses on chat button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BANRI4B3PuRLSDq20cbi-24" vertex="1" connectable="0">
@@ -514,8 +476,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BANRI4B3PuRLSDq20cbi-9" target="X0KTQDQpQDijS7VrkFQ6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-4" value="Pressed on change status button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X0KTQDQpQDijS7VrkFQ6-3">
+          <mxGeometry x="-0.2448" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-9" value="List of details of this specifc court appearance" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="210" y="375" width="470" height="170" as="geometry" />
+          <mxGeometry x="210" y="375" width="520" height="185" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-10" value="Client name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
           <mxGeometry y="56" width="90" height="30" as="geometry" />
@@ -524,7 +494,7 @@
           <mxGeometry x="105" y="56" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-12" value="Case type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
-          <mxGeometry x="10" y="96" width="80" height="30" as="geometry" />
+          <mxGeometry y="91" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-13" value="Case (matter requested) status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
           <mxGeometry x="5" y="126" width="190" height="30" as="geometry" />
@@ -532,20 +502,68 @@
         <mxCell id="BANRI4B3PuRLSDq20cbi-15" value="Documents" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
           <mxGeometry x="205" y="56" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BANRI4B3PuRLSDq20cbi-16" value="Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
-          <mxGeometry x="100" y="96" width="50" height="30" as="geometry" />
+        <mxCell id="BANRI4B3PuRLSDq20cbi-16" value="court appearance date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
+          <mxGeometry x="75" y="91" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-19" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Button to chat with client&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
           <mxGeometry x="195" y="106" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BANRI4B3PuRLSDq20cbi-20" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;button with his phone to call&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
+        <mxCell id="BANRI4B3PuRLSDq20cbi-20" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Button with his phone to call&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="BANRI4B3PuRLSDq20cbi-9" vertex="1">
           <mxGeometry x="285" y="56" width="155" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-1" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Button to change status&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="BANRI4B3PuRLSDq20cbi-9">
+          <mxGeometry x="345" y="121" width="150" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-27" value="Will be directed to whats app or SMS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="591" width="120" height="80" as="geometry" />
+          <mxGeometry x="560" y="630" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BANRI4B3PuRLSDq20cbi-29" value="Will call the client" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="645" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X0KTQDQpQDijS7VrkFQ6-2" target="X0KTQDQpQDijS7VrkFQ6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-9" value="changed the status to case closed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X0KTQDQpQDijS7VrkFQ6-8">
+          <mxGeometry x="-0.0048" y="2" relative="1" as="geometry">
+            <mxPoint x="-72" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X0KTQDQpQDijS7VrkFQ6-2" target="X0KTQDQpQDijS7VrkFQ6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-12" value="Presses on court appearance and will be on &amp;lt;Date&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X0KTQDQpQDijS7VrkFQ6-11">
+          <mxGeometry x="-0.107" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;u&gt;Lawyer can choose from:&lt;/u&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;A. Court appearance ended&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;B. Court appearance scheduled and will be on &amp;lt;Date&amp;gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="400" y="750" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1021" as="targetPoint" />
+            <mxPoint x="240" y="951" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-15" value="presses on submit button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X0KTQDQpQDijS7VrkFQ6-14">
+          <mxGeometry x="-0.1682" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-7" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;lawyer will be directed to new screen and then he can enter a message/comment with a submit button&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="70" y="820" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-10" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Then he will be directed to&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;new screen and be able to input&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;New date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Message/comment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;submit button&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="420" y="890" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-16" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Case status will be changed to &lt;/span&gt;&lt;i&gt;pending approval from manager&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Office manager will recieve the response&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1110" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-21" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Office manager apporves the case to be closed then case status will change to&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;&quot;&gt;Closed&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry y="1330" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X0KTQDQpQDijS7VrkFQ6-29" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Office manager denies then case will status will trun to processed by court&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1280" width="280" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -657,7 +675,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uOrQp1McR1hRLHqKMQ_T" name="MatterStatusOptions">
-    <mxGraphModel dx="1257" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -688,6 +706,9 @@
         <mxCell id="VQqE0Wdzxi8EZgDX1K8t-5" value="&lt;u&gt;Consultation&amp;nbsp;&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;A. Pending (Accept or Decline)&lt;/i&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;B. In progress and is getting handled by lawyer (you)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;C. Consultation will be on &amp;lt;date&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;D. Consultation Canceled&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;E. Consaltation Re assigned to another lawyer&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;F. Consaltuation Ended&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="330" width="225" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="LF3DNchmrsJanJnPGXdI-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQqE0Wdzxi8EZgDX1K8t-6" target="LF3DNchmrsJanJnPGXdI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VQqE0Wdzxi8EZgDX1K8t-6" value="Create Reports" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="115" width="100" height="65" as="geometry" />
         </mxCell>
@@ -713,6 +734,9 @@
         </mxCell>
         <mxCell id="R8bJgmG908j-1VAWBxMs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.806;entryY=0.091;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VQqE0Wdzxi8EZgDX1K8t-7" target="VQqE0Wdzxi8EZgDX1K8t-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3DNchmrsJanJnPGXdI-1" value="&lt;u&gt;Create Reports&lt;/u&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;i&gt;A. Pending (Accept or Decline)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;B. In progress&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;C. Report Canceled&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;D. Reprot finished&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;E. Report Reassigned to some one else&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="320" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
